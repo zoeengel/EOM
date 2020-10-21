@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0
+}
+header{
+    background-image: url(head.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.main_nav{
+  float: right;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.main_nav li{
+  display: inline-block;
+}
+
+.main_nav li a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto";
+  font-size: 15px;
+}
+
+.main_nav li.active a{
+  border: 1px solid white;
+}
+
+.main_nav li a:hover{
+  border: 1px solid white
+}
+
+#h{
+    
+    margin-top: 10px;
+    float: left;
+    color: white;
+    font-family: "Roboto";
+    font-size: 75px;
+
+
+}
+.nav{
+    float: right;
+    font-size: 50px;
+}
